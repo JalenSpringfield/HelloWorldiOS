@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         view.endEditing(true)
     }
     @IBAction func onResetGesture(_ sender: UITapGestureRecognizer) {
-        textLabel.text = "Hello"
+        textLabel.text = "Hello from Jalen!"
         view.backgroundColor = backgroundColor
         textLabel.textColor = UIColor.black
     }
