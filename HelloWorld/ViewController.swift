@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var textLabel: UILabel!
+    
+    @IBAction func didTapButton(_ sender: UIButton) {
+        print("Hello")
+        textLabel.textColor = UIColor.green
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
